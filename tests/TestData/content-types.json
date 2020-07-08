@@ -1,0 +1,778 @@
+{"numFound":14,"documents":[{
+  "id" : "fa6d63aa-95b2-4d28-9964-eea5aa501023",
+  "name" : "Destinations",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.113Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.113Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "fa6d63aa-95b2-4d28-9964-eea5aa501023",
+    "rev" : "1-d2d32079be46ba3c5e224e0d92e33b5d",
+    "name" : "Destinations",
+    "classification" : "content-type",
+    "path" : "/Destinations.json",
+    "kind" : [ "standalone" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.113Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.113Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Destinations Title",
+      "key" : "destinationsTitle",
+      "required" : false,
+      "hidden" : false,
+      "locked" : false,
+      "placeholder" : {
+        "show" : true
+      }
+    }, {
+      "elementType" : "category",
+      "label" : "Region List",
+      "key" : "regionList",
+      "required" : false,
+      "role" : [ "configuration" ],
+      "allowMultipleValues" : true,
+      "minimumValues" : 0,
+      "restrictedParents" : [ "478f06ce-90a4-41df-95c3-2b25285d4791" ]
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.194Z"
+  },
+  "systemTags" : [ "rev:1-d2d32079be46ba3c5e224e0d92e33b5d" ],
+  "systemModified" : "2020-01-31T13:04:07.194Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "e3a35427-aee9-4787-8f30-0a17d02608d1",
+  "name" : "About Information",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.132Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.132Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "e3a35427-aee9-4787-8f30-0a17d02608d1",
+    "rev" : "1-3e3b8f51d4edc04676cb51a8ae055b40",
+    "name" : "About Information",
+    "classification" : "content-type",
+    "path" : "/About-Information.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "aboutPageImage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.132Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.132Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "About Page Title",
+      "key" : "pageTitle",
+      "required" : false
+    }, {
+      "elementType" : "image",
+      "required" : false,
+      "label" : "About Page Image",
+      "key" : "aboutPageImage"
+    }, {
+      "elementType" : "formattedtext",
+      "label" : "About Page Text",
+      "key" : "aboutPageText",
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.188Z"
+  },
+  "systemTags" : [ "rev:1-3e3b8f51d4edc04676cb51a8ae055b40" ],
+  "systemModified" : "2020-01-31T13:04:07.188Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "37e98cc9-dbb5-4e3d-ba4a-ce06b046599f",
+  "name" : "Gallery Image",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.145Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.145Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "37e98cc9-dbb5-4e3d-ba4a-ce06b046599f",
+    "rev" : "1-cab0594dc36836df918270c62e25b2c6",
+    "name" : "Gallery Image",
+    "classification" : "content-type",
+    "path" : "/Gallery-Image.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "galleryImage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.145Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.145Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Image Title",
+      "key" : "ImageTitle",
+      "required" : false,
+      "maxLength" : 40,
+      "searchKey" : "string3"
+    }, {
+      "elementType" : "image",
+      "label" : "Gallery Image",
+      "key" : "galleryImage",
+      "required" : false,
+      "imageProfileId" : "a03c07db-709e-48f4-a3a1-4feb3ff2540e",
+      "acceptType" : [ "jpg", "jpeg", "png", "gif" ]
+    }, {
+      "elementType" : "formattedtext",
+      "label" : "Image Description",
+      "key" : "imageDescription",
+      "required" : false
+    }, {
+      "elementType" : "category",
+      "label" : "Image Country Value",
+      "key" : "imageCountryValue",
+      "required" : false,
+      "role" : [ "configuration" ],
+      "restrictedParents" : [ "478f06ce-90a4-41df-95c3-2b25285d4791" ]
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.198Z"
+  },
+  "systemTags" : [ "rev:1-cab0594dc36836df918270c62e25b2c6" ],
+  "systemModified" : "2020-01-31T13:04:07.198Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "95f8723b-36fb-41e7-8a4d-ecf25cfb6734",
+  "name" : "Contact Element",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.135Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.135Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "95f8723b-36fb-41e7-8a4d-ecf25cfb6734",
+    "rev" : "1-b91f5f716aa4303a9f42e6444817d333",
+    "name" : "Contact Element",
+    "classification" : "content-type",
+    "path" : "/Contact-Element.json",
+    "kind" : [ "embedded" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.135Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.135Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Contact Option Name",
+      "key" : "contactOptionName",
+      "required" : false
+    }, {
+      "elementType" : "formattedtext",
+      "label" : "Contact Option Value",
+      "key" : "contactOptionValue",
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.194Z"
+  },
+  "systemTags" : [ "rev:1-b91f5f716aa4303a9f42e6444817d333" ],
+  "systemModified" : "2020-01-31T13:04:07.194Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "bf26d16f-461d-408b-b846-4dfb9cc06c8a",
+  "name" : "Country",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.121Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.121Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "bf26d16f-461d-408b-b846-4dfb9cc06c8a",
+    "rev" : "1-43bc990df5667bafee390a91ccc9f562",
+    "name" : "Country",
+    "classification" : "content-type",
+    "path" : "/Country.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "countryImage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.121Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.121Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "categoryIds" : [ ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Country Title",
+      "key" : "countryTitle",
+      "required" : false,
+      "maxLength" : 40
+    }, {
+      "elementType" : "image",
+      "label" : "Country Image",
+      "key" : "countryImage",
+      "required" : false,
+      "acceptType" : [ "jpg", "jpeg", "png", "gif" ],
+      "imageProfileId" : "f55fa25b-f48a-4629-9f8e-3adf84d95a29"
+    }, {
+      "elementType" : "category",
+      "label" : "Country Value for Page",
+      "key" : "countryValueForPage",
+      "required" : false,
+      "restrictedParents" : [ "478f06ce-90a4-41df-95c3-2b25285d4791" ],
+      "role" : [ "configuration" ]
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.194Z"
+  },
+  "systemTags" : [ "rev:1-43bc990df5667bafee390a91ccc9f562" ],
+  "systemModified" : "2020-01-31T13:04:07.194Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "58363171-9f26-4dce-a556-eaf89a4d98b8",
+  "name" : "Article Previews Settings",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.137Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.137Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "58363171-9f26-4dce-a556-eaf89a4d98b8",
+    "rev" : "1-fbccc6051e43fe17a3d4963fe50df143",
+    "name" : "Article Previews Settings",
+    "classification" : "content-type",
+    "path" : "/Article-Previews-Settings.json",
+    "kind" : [ "embedded" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.137Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.137Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "optionselection",
+      "options" : [ {
+        "label" : "Gallery Image",
+        "selection" : "Gallery Image"
+      }, {
+        "label" : "Travel Article",
+        "selection" : "Travel Article"
+      } ],
+      "label" : "Content Type to Display",
+      "key" : "contentTypeToDisplay"
+    }, {
+      "elementType" : "optionselection",
+      "options" : [ {
+        "label" : "Most Recent",
+        "selection" : "Most Recent"
+      }, {
+        "label" : "Least Recent",
+        "selection" : "Least Recent"
+      } ],
+      "label" : "Article Display Order",
+      "key" : "ArticleDisplayOrder"
+    }, {
+      "elementType" : "number",
+      "fieldType" : "integer",
+      "label" : "Number of list items",
+      "key" : "numberOfListItems",
+      "minimum" : 1,
+      "maximum" : 12,
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.201Z"
+  },
+  "systemTags" : [ "rev:1-fbccc6051e43fe17a3d4963fe50df143" ],
+  "systemModified" : "2020-01-31T13:04:07.201Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "0b48a3c4-cc2f-424f-86bb-1b83292ee57c",
+  "name" : "Image Slider Settings",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.544Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.544Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "0b48a3c4-cc2f-424f-86bb-1b83292ee57c",
+    "rev" : "1-53247f61e534b347f9b2c9f7858d129d",
+    "name" : "Image Slider Settings",
+    "classification" : "content-type",
+    "path" : "/Image-Slider-Settings.json",
+    "kind" : [ "embedded" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.544Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.544Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "optionselection",
+      "options" : [ {
+        "label" : "Gallery Image",
+        "selection" : "Gallery Image"
+      }, {
+        "label" : "Travel Article",
+        "selection" : "Travel Article"
+      } ],
+      "label" : "Content Type To Display",
+      "key" : "contentTypeToDisplay"
+    }, {
+      "elementType" : "optionselection",
+      "options" : [ {
+        "label" : "Most Recent",
+        "selection" : "Most Recent"
+      }, {
+        "label" : "Least Recent",
+        "selection" : "Least Recent"
+      } ],
+      "label" : "Display Order",
+      "key" : "displayOrder"
+    }, {
+      "elementType" : "number",
+      "fieldType" : "integer",
+      "label" : "Number of list items",
+      "key" : "numberOfListItems",
+      "minimum" : 1,
+      "maximum" : 12,
+      "required" : false
+    }, {
+      "elementType" : "number",
+      "fieldType" : "integer",
+      "label" : "Display Time",
+      "key" : "DisplayTime",
+      "minimum" : 1,
+      "maximum" : 15,
+      "helpText" : "This field is used only for Image Slider. Value from this field is used to indicate how long each image is displayed in Slider before switching to the next one.",
+      "allowMultipleValues" : false,
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.600Z"
+  },
+  "systemTags" : [ "rev:1-53247f61e534b347f9b2c9f7858d129d" ],
+  "systemModified" : "2020-01-31T13:04:07.600Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "d46d3539-6d9e-43e9-bfc6-b35a27cc4f03",
+  "name" : "Social Media Element",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.566Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.566Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "d46d3539-6d9e-43e9-bfc6-b35a27cc4f03",
+    "rev" : "1-f23850c6f8f99c50b28d7578d7a7e4b2",
+    "name" : "Social Media Element",
+    "classification" : "content-type",
+    "path" : "/Social-Media-Element.json",
+    "kind" : [ "embedded", "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "socialMediaIcon",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.566Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.566Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "image",
+      "label" : "Social Media Icon",
+      "key" : "socialMediaIcon",
+      "required" : false,
+      "acceptType" : [ "jpg", "jpeg", "png", "gif", "svg" ]
+    }, {
+      "elementType" : "link",
+      "label" : "Social Media Link",
+      "key" : "socialMediaLink",
+      "required" : false
+    } ],
+    "icon" : "link",
+    "systemModified" : "2020-01-31T13:04:07.617Z"
+  },
+  "systemTags" : [ "rev:1-f23850c6f8f99c50b28d7578d7a7e4b2" ],
+  "systemModified" : "2020-01-31T13:04:07.617Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "020bc107-4d2a-4513-8988-bc0cd455bb98",
+  "name" : "Travel Article",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.570Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.570Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "020bc107-4d2a-4513-8988-bc0cd455bb98",
+    "rev" : "1-e46587149e976d30c9de1d482cbe393f",
+    "name" : "Travel Article",
+    "classification" : "content-type",
+    "path" : "/Travel-Article.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "travelArticleImage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.570Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.570Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Travel Article Title",
+      "key" : "travelArticleTitle",
+      "required" : false,
+      "maxLength" : 100,
+      "placeholder" : {
+        "show" : true,
+        "text" : "Enter travel article title"
+      },
+      "searchKey" : "string1"
+    }, {
+      "elementType" : "image",
+      "label" : "Travel Article Image",
+      "key" : "travelArticleImage",
+      "required" : false,
+      "imageProfileId" : "59414bcf-8ccb-4809-9117-47b7a64864a0",
+      "acceptType" : [ "jpg", "jpeg", "png", "gif" ]
+    }, {
+      "elementType" : "formattedtext",
+      "label" : "Travel Article Text",
+      "key" : "travelArticleText",
+      "required" : false
+    }, {
+      "elementType" : "text",
+      "label" : "Article Author",
+      "key" : "articleAuthor",
+      "required" : false,
+      "maxLength" : 40,
+      "placeholder" : {
+        "show" : true,
+        "text" : "Enter author name"
+      }
+    }, {
+      "elementType" : "category",
+      "label" : "Country Of Travel Article",
+      "key" : "countryOfTravelArticle",
+      "required" : false,
+      "restrictedParents" : [ "478f06ce-90a4-41df-95c3-2b25285d4791" ],
+      "role" : [ "configuration" ]
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.626Z"
+  },
+  "systemTags" : [ "rev:1-e46587149e976d30c9de1d482cbe393f" ],
+  "systemModified" : "2020-01-31T13:04:07.626Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "cc95aaa3-b35f-4da6-b03f-8e43c0c7577a",
+  "name" : "Contact Information",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.116Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.116Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "cc95aaa3-b35f-4da6-b03f-8e43c0c7577a",
+    "rev" : "1-293e90b32fd67a03aa75de2d6004f462",
+    "name" : "Contact Information",
+    "classification" : "content-type",
+    "path" : "/Contact-Information.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "contactPageImage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.116Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.116Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Contact Information Title",
+      "key" : "contactInformationTitle",
+      "required" : false,
+      "maxLength" : 20,
+      "hidden" : false,
+      "locked" : false
+    }, {
+      "elementType" : "image",
+      "label" : "Contact Page Image",
+      "key" : "contactPageImage",
+      "required" : false
+    }, {
+      "elementType" : "group",
+      "typeRef" : {
+        "id" : "95f8723b-36fb-41e7-8a4d-ecf25cfb6734",
+        "name" : "Contact Element"
+      },
+      "label" : "Contact Options",
+      "key" : "contactOptions",
+      "required" : false,
+      "allowMultipleValues" : true,
+      "minimumValues" : 0,
+      "fieldLabel" : "Custom Element"
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.475Z"
+  },
+  "systemTags" : [ "rev:1-293e90b32fd67a03aa75de2d6004f462" ],
+  "systemModified" : "2020-01-31T13:04:07.475Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "7d004956-86e6-4d49-9d91-5defe67b8bbe",
+  "name" : "Home Information",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.116Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.116Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "7d004956-86e6-4d49-9d91-5defe67b8bbe",
+    "rev" : "1-63eff08ecb5ad7b154a906fa4e830925",
+    "name" : "Home Information",
+    "classification" : "content-type",
+    "path" : "/Home-Informatio.json",
+    "kind" : [ "standalone" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.116Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.116Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Website Title",
+      "key" : "websiteTitle",
+      "required" : false,
+      "maxLength" : 100
+    }, {
+      "elementType" : "text",
+      "label" : "Mission Statement Title",
+      "key" : "missionStatementTitle",
+      "required" : false,
+      "maxLength" : 200
+    }, {
+      "elementType" : "formattedtext",
+      "label" : "Mission Statement Text",
+      "key" : "missionStatementText",
+      "required" : false
+    }, {
+      "elementType" : "group",
+      "typeRef" : {
+        "id" : "0b48a3c4-cc2f-424f-86bb-1b83292ee57c",
+        "name" : "Image Slider Settings"
+      },
+      "label" : "Image Slider Settings",
+      "key" : "imageSliderSettings",
+      "required" : false
+    }, {
+      "elementType" : "group",
+      "typeRef" : {
+        "id" : "58363171-9f26-4dce-a556-eaf89a4d98b8",
+        "name" : "Article Previews Settings"
+      },
+      "label" : "Article Previews Settings",
+      "key" : "articlePreviewsSettings",
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:08.759Z"
+  },
+  "systemTags" : [ "rev:1-63eff08ecb5ad7b154a906fa4e830925" ],
+  "systemModified" : "2020-01-31T13:04:08.759Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "5d830a1a-2fd8-4448-9d92-0ef0a11ecbdc",
+  "name" : "Travel Site Footer",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.588Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.588Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "5d830a1a-2fd8-4448-9d92-0ef0a11ecbdc",
+    "rev" : "1-45f6b0f2ae3e15b984ae9a92e2a41810",
+    "name" : "Travel Site Footer",
+    "classification" : "content-type",
+    "path" : "/Travel-Site-Footer.json",
+    "kind" : [ "standalone" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.588Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.588Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "copyrightText",
+      "key" : "copyrighttext",
+      "required" : false,
+      "placeholder" : {
+        "show" : true,
+        "text" : "Enter copyright text here."
+      }
+    }, {
+      "elementType" : "group",
+      "typeRef" : {
+        "id" : "d46d3539-6d9e-43e9-bfc6-b35a27cc4f03",
+        "name" : "Social Media Element"
+      },
+      "allowMultipleValues" : true,
+      "required" : false,
+      "label" : "Social Media",
+      "key" : "socialMedia",
+      "minimumValues" : 0,
+      "fieldLabel" : "Social Media Element",
+      "maximumValues" : 3
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.952Z"
+  },
+  "systemTags" : [ "rev:1-45f6b0f2ae3e15b984ae9a92e2a41810" ],
+  "systemModified" : "2020-01-31T13:04:07.952Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "9f077e72-352d-41a3-b2bb-b3857e6bc783",
+  "name" : "Region",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.530Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.530Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "9f077e72-352d-41a3-b2bb-b3857e6bc783",
+    "rev" : "1-03d201039b35a465dfa3b4260f46fb2b",
+    "name" : "Region",
+    "classification" : "content-type",
+    "path" : "/Region.json",
+    "kind" : [ "standalone" ],
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.530Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.530Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "text",
+      "label" : "Region Title",
+      "key" : "regionTitle",
+      "required" : false,
+      "maxLength" : 30
+    }, {
+      "elementType" : "category",
+      "label" : "Country List",
+      "key" : "countryList",
+      "role" : [ "configuration" ],
+      "required" : false,
+      "restrictedParents" : [ "478f06ce-90a4-41df-95c3-2b25285d4791" ],
+      "allowMultipleValues" : true,
+      "minimumValues" : 0
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.598Z"
+  },
+  "systemTags" : [ "rev:1-03d201039b35a465dfa3b4260f46fb2b" ],
+  "systemModified" : "2020-01-31T13:04:07.598Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+},{
+  "id" : "ce49a9d5-c114-4069-8e9c-40f05583fd6f",
+  "name" : "Travel Site Header",
+  "classification" : "content-type",
+  "lastModified" : "2020-01-31T13:04:07.573Z",
+  "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "created" : "2020-01-31T13:04:07.573Z",
+  "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+  "isSystem" : false,
+  "document" : {
+    "id" : "ce49a9d5-c114-4069-8e9c-40f05583fd6f",
+    "rev" : "1-8989119bc6644b929785bb425b499b39",
+    "name" : "Travel Site Header",
+    "classification" : "content-type",
+    "path" : "/Travel-Site-Header.json",
+    "kind" : [ "standalone" ],
+    "contentThumbnail" : {
+      "imageElement" : "logoimage",
+      "source" : "imageElementOrType"
+    },
+    "description" : "",
+    "creatorId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "created" : "2020-01-31T13:04:07.573Z",
+    "lastModifierId" : "55037f59-71b4-4881-b7d3-0d9e07e9d25d",
+    "lastModified" : "2020-01-31T13:04:07.573Z",
+    "status" : "ready",
+    "tags" : [ "Travel Site Sample" ],
+    "elements" : [ {
+      "elementType" : "image",
+      "label" : "logoImage",
+      "key" : "logoimage",
+      "required" : false
+    } ],
+    "systemModified" : "2020-01-31T13:04:07.634Z"
+  },
+  "systemTags" : [ "rev:1-8989119bc6644b929785bb425b499b39" ],
+  "systemModified" : "2020-01-31T13:04:07.634Z",
+  "isManaged" : true,
+  "status" : "ready",
+  "tags" : [ "Travel Site Sample" ]
+}]}
