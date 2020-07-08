@@ -1,0 +1,71 @@
+{
+  "name": "@acoustic-content/delivery-sdk",
+  "version": "1.0.0",
+  "description": "Official JavaScript SDK for the Acoustic Content Delivery API.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "npm run build:min && npm run build:module",
+    "build:min": "webpack --config config/webpack-min.build",
+    "build:module": "webpack --config config/webpack-module.build",
+    "test": "mocha --timeout 10000 -r ts-node/register \"./tests/**/*.spec.ts\"",
+    "tslint:src": "tslint \"./src/**/*.ts\"",
+    "tslint:tests": "tslint \"./tests/**/*.ts\"",
+    "lint": "npm run tslint:src && npm run tslint:tests",
+    "tslint:fix": "npm run tslint:src -- --fix && npm run tslint:tests -- --fix",
+    "tslint:check": "tslint-config-prettier-check ./tslint.json",
+    "prettier:src": "prettier --write --config ./.prettierrc.js \"./src/**/*.ts\"",
+    "prettier:tests": "prettier --write --config ./.prettierrc.js \"./tests/**/*.ts\"",
+    "prettier": "npm run prettier:src && npm run prettier:tests",
+    "typedoc": "typedoc --out docs src",
+    "coverage": "nyc -r lcov -e .ts -x \"**/*.spec.ts\" npm run test"
+  },
+  "homepage": "https://github.com/acoustic-content-samples/content-delivery-js-sdk",
+  "pre-commit": [
+    "prettier",
+    "lint"
+  ],
+  "repository": "git@github.com:acoustic-content-samples/content-delivery-js-sdk.git",
+  "author": "",
+  "license": "Apache-2.0",
+  "bug": {
+    "url": "https://github.com/acoustic-content-samples/content-delivery-js-sdk/issues"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.4",
+    "@types/chai-things": "0.0.34",
+    "@types/mocha": "5.2.7",
+    "@types/node": "12.12.7",
+    "@types/sinon": "7.5.1",
+    "axios": "0.19.1",
+    "chai": "4.2.0",
+    "chai-sorted": "0.2.0",
+    "chai-things": "0.2.0",
+    "mocha": "6.2.2",
+    "nyc": "15.0.0",
+    "pre-commit": "1.2.2",
+    "prettier": "1.18.2",
+    "sinon": "7.5.0",
+    "terser-webpack-plugin": "^3.0.6",
+    "ts-loader": "6.2.1",
+    "ts-node": "8.4.1",
+    "tslint": "5.20.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typedoc": "0.16.9",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  },
+  "engines": {
+    "node": ">= 10.16.0"
+  },
+  "peerDependencies": {
+    "axios": "0.19.1"
+  },
+  "dependencies": {},
+  "private": false
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protected Content Example</title>
+</head>
+<body>
+    <h1>Protected Content Example</h1>
+    <h3>Code snippet</h3>
+    <pre><code>
+    // create an instance of SDK
+    ContentDeliverySDK.create({
+        apiUrl: "apiUrl",
+        username: "username",
+        password: "password"
+    })
+        // create an instance of DeliverySearch
+        .deliverySearch()
+        // use content items
+        .contentItems()
+        // use mydelivery instead of delivery
+        .protectedContent(true)
+        // include document field for all objects of content items
+        .includeDocument(false)
+        // execute an API call
+        .get()
+        .then(deliverySearchResult => {
+            // do something with documents
+        })
+        .catch(error => {
+            // error handling
+        });
+    </code></pre>
+
+    <h3>Example</h3>
+    <div id="list" class="container">
+        <div class="row">
+            <div class="col">id</div>
+            <div class="col">name</div>
+            <div class="col">classification</div>
+        </div>
+    </div>
+
+<style>
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row:hover {
+  background: #ccc;
+}
+</style>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+<script src="../dist/index.min.js"></script>
+<script>
+    ContentDeliverySDK.create({
+        apiUrl: "",
+        username: "",
+        password: ""
+    })
+        .deliverySearch()
+        .contentItems()
+        .protectedContent(true)
+        .includeDocument(false)
+        .get()
+        .then(deliverySearchResult => {
+            appendData(deliverySearchResult.documents());
+        })
+        .catch(error => {
+            console.log(error);
+        });
+
+var appendData = function(data) {
+    data.forEach(item => {
+        var id = document.createElement('div');
+        id.className = 'col';
+        id.innerText = item.id;
+        var name = document.createElement('div');
+        name.className = 'col';
+        name.innerText = item.name;
+        var classification = document.createElement('div');
+        classification.className = 'col';
+        classification.innerText = item.classification;
+
+        var el = document.createElement('div');
+        el.className = 'row';
+
+        el.appendChild(id);
+        el.appendChild(name);
+        el.appendChild(classification);
+
+        document.querySelector('#list').appendChild(el);
+    });
+}
+</script>
+</body>
+</html>
