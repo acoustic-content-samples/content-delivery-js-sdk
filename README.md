@@ -25,7 +25,9 @@ It is recommended to have the latest version of **Node.js** with **npm** install
 
 ### Installing
 
-This SDK is available for installation as a node module directly from the [npm registry](https://npmjs.com). If you are unable to access the public npm registry for some reason, you may download this SDK from CDN. Please refer to the instructions described below for both installation methods.
+This SDK is available for installation as a node module directly from the [npm registry](https://www.npmjs.com/package/@acoustic-content/delivery-sdk).
+
+<!-- If you are unable to access the public npm registry for some reason, you may download this SDK from CDN. Please refer to the instructions described below for both installation methods. -->
 
 #### Install using npm:
 
@@ -33,11 +35,13 @@ This SDK is available for installation as a node module directly from the [npm r
 $ npm i @acoustic-content/delivery-sdk
 ```
 
+<!--
 #### Install using CDN:
 
 ```html
 <script src="https://link_to_the_cdn"></script>
 ```
+-->
 
 ## Usage
 
@@ -79,14 +83,14 @@ If you want to make a request as an authorized user, please add username and pas
 
 ```js
 ContentDeliverySDK.create({
-    apiUrl: "",
-    username: "",
-    password: ""
-  })
+  apiUrl: "",
+  username: "",
+  password: "",
+})
   .deliverySearch()
   .contentItems()
   .protectedContent()
-  .get()
+  .get();
 ```
 
 You can find more examples in the [sample](https://github.com/acoustic-content-samples/content-delivery-js-sdk/tree/master/sample) folder.
@@ -121,9 +125,9 @@ $ API_URL=<url> USERNAME=<username> PASSWORD=<password> npm run test
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeDoc](https://typedoc.org/)
 
-## Contributing
+<!-- ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
 
 ## License
 
