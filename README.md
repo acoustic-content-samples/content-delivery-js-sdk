@@ -14,7 +14,6 @@ This SDK is designed to help utilize the content hosted in Acoustic Content libr
 - [Installing](#installing)
 - [Usage](#usage)
 - [Testing](#running-the-tests)
-<!-- - [Contributing](#contributing) -->
 - [License](#license)
 
 ## Getting Started
