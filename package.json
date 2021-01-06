@@ -40,7 +40,7 @@
     "@types/mocha": "^8.0.0",
     "@types/node": "12.12.7",
     "@types/sinon": "7.5.1",
-    "axios": "0.19.1",
+    "axios": "0.21.1",
     "chai": "4.2.0",
     "chai-sorted": "0.2.0",
     "chai-things": "0.2.0",
@@ -64,7 +64,7 @@
     "node": ">= 10.16.0"
   },
   "peerDependencies": {
-    "axios": "0.19.1"
+    "axios": "0.21.1"
   },
   "dependencies": {},
   "private": false
